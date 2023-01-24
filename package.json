@@ -1,0 +1,33 @@
+{
+  "name": "project_planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.25.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "moment-business-days": "^1.2.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.20.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nodemon": "^2.0.20"
+  }
+}
